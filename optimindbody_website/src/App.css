@@ -1,0 +1,288 @@
+.logo{
+  width:150px;
+  length:150px;
+}
+.navbarfonts {
+  font-size: 1em;
+  font-family: 'Archivo', sans-serif;
+  color: white;
+  text-decoration:none;
+  height:100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  cursor:pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:stretch;
+  gap:2rem;
+  padding: 0 1rem;
+
+}
+
+.nav_ul{
+  padding:0;
+  margin:0;
+  list-style:none;
+  display:flex;
+  gap:1rem;
+}
+.nav_li.active{
+  background-color:black;
+
+}
+.nav_li.hover{
+  background-color:white;
+
+}
+.background {
+  position: relative;
+  display: flex;
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: top;
+}
+
+/* Add a pseudo-element to create a semi-transparent overlay */
+.background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+
+.hero_text {
+  position: relative; /* Ensure the text is positioned above the overlay */
+  z-index: 1; /* Ensure the text is above the overlay */
+  color: white;
+  margin-top:200px;
+  justify-items:center;
+  
+  
+  
+  
+}
+.h_txt{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.h1_txt{
+  margin-top:0px;
+  margin-bottom:100px;
+}
+  
+.info_txt{
+  margin-top:0px;
+  margin-bottom:0px;
+
+}
+.start_btn{
+  margin-top:50px;
+  text-align:center;
+  width:260px;
+  height:80px;
+  border:none;
+  border-radius:40px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 2em ;
+  color: white;
+  background-color:#3300FF;
+  cursor: pointer;
+}
+
+.center{
+  text-align:center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.number {
+  
+  font-weight: bold;
+  font-family: 'Archivo', sans-serif;
+  font-size:  9.375em ;
+  color: white;
+  background-color:#3300FF;
+  text-align:center;
+
+}
+
+.text {
+  margin-top: 10px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.5em ;
+  color: white;
+  height:30vh;
+  margin-top:40px;
+ 
+}
+.title {
+  font-family: 'Archivo', sans-serif;
+  font-size: 4em ;
+  color: white;
+  justify-content:bottom;
+  text-align:left;
+  
+}
+
+.number-grid{
+  display: grid;
+    grid-template-columns: 1fr 2fr; /* One column takes up 1/3 of the width, the other takes up 2/3 */
+    gap: 20px;
+}
+
+.Services{
+  font-family: 'Archivo', sans-serif;
+  font-size: 6em ;
+  color: white;
+  justify-content:bottom;
+  text-align:center;
+  margin-top:0vh;
+  background-color:#3300FF;
+  padding: 40px;
+  
+}
+.ot{
+  font-family: 'Archivo', sans-serif;
+  font-size: 6em ;
+  color: white;
+  justify-content:bottom;
+  text-align:left;
+  background-color:#3300FF;
+  margin-left:20px;
+
+}
+.ot1{
+  margin-top:10vh;
+  font-family: 'Archivo', sans-serif;
+  font-size: 4em ;
+  color: white;
+  justify-content:bottom;
+  text-align:left;
+  margin-left:20px;
+
+}
+.about-div{
+    margin-top:25vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    gap: 20px;
+}
+
+
+.about-div-item{
+    /*border: 1px solid #ccc;
+    padding: 20px;*/
+    height:45vh;
+}
+.team-img{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border: 1px solid #ccc;
+  padding: 20px;
+
+}
+.mission{
+  display:flex;
+  margin-bottom:20px;
+  
+}
+.mission-text{
+  text-align:left;
+  margin-left:20px;
+  
+
+}
+
+.title-partners {
+  text-align: center;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  font-size: 6em;
+  background-color: #3300ff;
+  width: 48.666vw;
+
+  
+}
+.partners-container {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+  margin-top: 150px;
+}
+.partner-logo {
+  border: 1px solid white;
+  height: 400px;
+}
+.page-container{
+  margin-top:200px;
+  justify-content:center;
+  align-items:center;
+  
+}
+.contact-us-div{
+  text-align: ;
+  margin-top:200px;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  font-size: 2em;
+  border-top: 1px solid white;
+  
+  display:flex;
+  
+  
+
+
+}
+.contact-us-text{
+  
+  font-family: 'Archivo', sans-serif;
+  font-size: 2em ;
+  color: white;
+  margin-top:50px;
+  text-align:left;
+  margin-left:20px;
+
+}
+.social{
+  height:40px;
+  width:40px;
+}
+.ok-div{
+  justify-content:space-between;
+  display:flex;
+  width:60vw;
+  margin-left:60px;
+  
+  
+  
+  
+
+
+}

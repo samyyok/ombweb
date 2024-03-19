@@ -1,0 +1,42 @@
+
+body {
+  
+     
+background-color: #000000; 
+height:100%}
+
+
+
+
+
+h1 {
+  font-size: 6em;
+  font-family: 'Public Sans', sans-serif;
+  color: white;
+  text-align:center;
+ 
+}
+p {
+  text-align:center;
+  font-family: 'Archivo', sans-serif;
+  font-size: 2em;
+  color: white;
+
+}
+h2 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 9.375em ;
+  color: white;
+
+}
+h3 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 4em ;
+  color: white;
+
+}
+
+
+
+
+
